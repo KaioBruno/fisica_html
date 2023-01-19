@@ -1,3 +1,5 @@
+/* Css da página inicial do site repensando a física */
+
 body {
     background-color: #1D232A;
     font-family: 'Open Sans', sans-serif;
@@ -73,6 +75,45 @@ p{
     line-height: 2em;
     font-size: 1.2em;
 }
+
+/* Css da página mecânica do site repensando a física */
+
+.conteudo__mecanica{
+    margin-left: 20px;
+}
+
+.navegacao__mecanica{
+    display: inline-block;
+    width: 90%;
+    height: 30%;
+    margin: 5px 5px;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+.imagem{
+    width: 100%;
+    }
+
+.conteudo__mecanica h3{
+   text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.conteudo__mecanica p{
+    text-align: center;
+    font-size: 1.0rem;
+    color: white;
+}
+
+/* Css do rodapé de todas as páginas do site repensando a física */
 
 .rodape {
     text-align: center;
