@@ -1,0 +1,277 @@
+/* Css da página inicial do site repensando a física */
+
+body {
+    background-color: #1D232A;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15191C;
+    padding: 8px 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+.cabecalho__menu {
+    width: 50px;
+    height: 50px;
+}
+
+.cabecalho__notificacao{
+    width: 80px;
+    height: 80px;
+}
+
+.cabecalho__logo{
+    width: 50px;
+    height: 50px;
+      
+}
+
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background: #15191C;
+    width: 40vw;
+    height: 60vw;
+
+    position: absolute;
+    left: -100vw;
+    transition: 0.25s;
+}
+
+.menu-lateral--ativo{
+    left: 0;
+    transition: 0.25s;
+}
+
+.menu-lateral__link{
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 6px 18px;
+    font-size: 1.2rem;
+    text-decoration: unset;
+    display: flex;
+    align-items: center;
+}
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding:15px;
+}
+
+p{
+    text-align: justify;
+    margin: 0 1em 0 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+.categorias__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.categorias__lista a{
+    text-decoration: none;
+}
+
+.categorias__item1{
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.categorias__item2{
+   background-color: orange;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+     font-weight: bold;
+ }
+
+ .categorias__item3{
+   background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+     font-weight: bold;
+ }
+
+/* Css da página mecânica,termologia,ondulatoria,optica, eletricidade e fisica moderna do site repensando a física */
+
+.conteudo__mecanica{
+    margin-left: 20px;
+}
+
+.navegacao__mecanica{
+    display: inline-block;
+    width: 90%;
+    height: 30%;
+    margin: 5px 5px;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+.imagem{
+    width: 100%;
+    }
+
+.conteudo__mecanica h3{
+   text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.conteudo__mecanica p{
+    text-align: center;
+    font-size: 1.0rem;
+    color: white;
+}
+/* Css da página de aulas do site repensando a física */
+
+.titulo-aula{
+    font-size: 2em;
+    font-weight: bold;
+    padding:15px;
+    text-align: center;
+}
+
+.aula{
+    background: linear-gradient(#CCCCCC,#FFFFFF);
+    color: black;
+}
+
+.corpo-aula h3{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.corpo-aula p{
+    text-align: justify;
+    margin: 0 1em 0 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    
+}
+
+.titulo-tabela{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.corpo-tabela{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.corpo-aula img{
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.corpo-aula h4{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.video-aula{
+    position: relative;
+    align:center ;
+}
+.video-aula h3{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+}
+.video-aula iframe{
+    width: 90%;
+    margin: 20px;
+}
+
+.exercicios h3{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.exercicios img{
+     width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.seta1{
+     width:80px;
+    height: 80px;
+    margin:20px;
+}
+
+.seta{
+    width:80px;
+    height: 80px;
+    margin: 20px 10px 20px 0;
+    transform: rotate(180deg);
+}
+
+/* Css do rodapé de todas as páginas do site repensando a física */
+
+.rodape {
+    text-align: center;
+    background: linear-gradient(black,gray);
+    clear: right;
+    margin: 20px 0 0 0;
+}
+
+footer img{
+    width: 10%;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+    margin: 5px 0 0;
+    text-align: center;
+}
